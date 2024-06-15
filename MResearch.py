@@ -10,23 +10,26 @@ import random
 
 st.write("""
  
-# Welcome to B&M Mission cascade
+# Welcome to MR&CI Wednesday meet
         
          """)
 
-msgs = ['Your tech insights are like hidden gems in the digital finance landscape.',
-        'Your determination in tackling tech challenges is truly inspiring',
-        'Your dedication to excellence is like a heavenly virtue, infusing our projects with the essence of success and achievement',
-        'Your tech skills are like the backbone of our digital infrastructure, providing stability and reliability in an ever-changing landscape',
-        'You demonstrates a high level of creativity in developing innovative brand communication strategies',
-        'Your tech insights are like guiding stars in the digital universe, illuminating paths to innovation and progress. Keep shining bright and leading the way',
-        'Your determination in the face of technical challenges is like a force of nature. Your resilience and tenacity propel us forward, overcoming obstacles and achieving greatness.',
-        'Your tech expertise is like a cornerstone, providing stability and strength to our digital endeavors. Keep building and fortifying our technological foundations!',
-        'Your tech insights are like a guiding light, illuminating the path to innovation and progress.',
-        'Your strategic thinking and problem-solving abilities are invaluable assets to our team. Keep shining bright!',
-        'Looking gorgeous as ever! loving the outfit also, we see the glow.',
-        'Your bubbly yet grounded approach to everything is a breath of fresh air in this tech space. You are doing well, keep up!',
-        'Your warmth and appreciation for people radiates all through'
+msgs = ['If you could have any superpower, what would it be and why? ',
+'What is your favorite book or movie, and what makes it special to you? ',
+'If you could travel anywhere in the world, where would you go and what would you do there? ',
+'What's the most unusual or interesting job you've ever had? ',
+'If you could meet any historical figure, who would it be and what one question would you ask them? ',
+'What is one thing on your bucket list that you hope to accomplish in the next five years? ',
+'If you were an animal, which one would you be and why? ',
+'What’s a hobby or activity you’ve always wanted to try but haven’t yet? ',
+'If you could instantly become an expert in any field, what would it be and why? ',
+'What's the best piece of advice you've ever received, and how has it impacted you? ',
+'If you were a season, which one would you be and why? ',
+'If you could magically learn any language, which one would you choose and why? ',
+'What’s your favorite way to spend a day off? ',
+'If you could swap lives with anyone for a day, who would it be and what would you do? ',
+'What's the weirdest food you've ever tried, and did you like it? ',
+'What’s one talent you wish you had?'
         ]
 
 
@@ -39,4 +42,4 @@ if st.button('SUBMIT'):
     name = f_name.capitalize()
     msg = msgs[intpos]
     
-    st.write(name +" Welcome to B&M Mission Cascade. "+msg)
+    st.write(name +" Welcome at Research team meeting! Your presence is valued. "+msg)
